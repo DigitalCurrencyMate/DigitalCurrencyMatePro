@@ -1,18 +1,37 @@
 # Python 缓存
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # 虚拟环境
 venv/
 env/
+ENV/
 
-# 环境变量（重要！）
+# 环境变量（重要！不要提交 Token）
 .env
 
-# Wheel 文件（重要！不要提交安装包）
+# Wheel 文件
 *.whl
 
-# Visual Studio 安装目录（重要！）
+# Visual Studio 安装目录
 VS program/
 
 # 运行时生成的文件
