@@ -1,0 +1,8 @@
+python-telegram-bot[job-queue]==21.7
+ccxt>=4.0.0
+python-dotenv==1.0.0
+requests==2.31.0
+matplotlib==3.7.2
+psutil==5.9.6
+feedparser==6.0.10
+pytz==2023.3
